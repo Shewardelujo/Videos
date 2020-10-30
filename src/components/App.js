@@ -17,7 +17,7 @@ import VideoList from './VideoList';
     };
 
     onVideoSelect = (video) => {
-        console.log('from the app!', video);
+        this.setState({selectedVideo: video})
     }
 
     render() {
